@@ -1,0 +1,2 @@
+# run every minute as root
+* * * * * root /usr/local/bin/cron-job.sh >> /var/log/cron.log 2>&1
