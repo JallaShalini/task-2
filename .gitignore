@@ -1,2 +1,21 @@
+# Sensitive / secrets (should not be committed)
 encrypted_seed.txt
 data/seed.txt
+# Environment files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Logs (local only)
+cron/heartbeat.log
+
+# Don't ignore the keys required for the assignment:
+# student_private.pem
+# student_public.pem
+# instructor_public.pem
